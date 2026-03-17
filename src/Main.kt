@@ -23,6 +23,12 @@
               val estudiante = Estudiante()
               estudiante.nombre="Harry Joiner"
               estudiante.edad=20
+              estudiante.estudiar()
+
+              val poo = Asignatura( "POO", 250.0)
+
+              println(poo.getNombre())
+              println(poo.getPrecio())
 
 
 
